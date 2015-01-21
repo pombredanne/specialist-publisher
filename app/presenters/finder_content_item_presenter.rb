@@ -46,6 +46,7 @@ private
       document_type: metadata.fetch("format"),
       email_signup_enabled: metadata.fetch("signup_enabled", false),
       signup_link: metadata.fetch("signup_link", nil),
+      summaries: metadata.fetch("summaries", false),
       facets: schema.fetch("facets"),
     }
   end
