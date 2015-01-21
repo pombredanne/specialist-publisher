@@ -106,8 +106,16 @@
     {
       "key": "opened_date",
       "name": "Opened",
+      "metadata_label": "Opened",
       "type": "date",
       "preposition": "opened",
+      "metadata": true
+    },
+
+    {
+      "key": "closed_date",
+      "metadata_label": "Closed",
+      "type": null,
       "metadata": true
     }
   ]

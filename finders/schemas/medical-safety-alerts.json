@@ -47,6 +47,7 @@
     {
       "key": "issued_date",
       "name": "Issued",
+      "metadata_label": "Issued",
       "type": "date",
       "preposition": "issued",
       "metadata": true

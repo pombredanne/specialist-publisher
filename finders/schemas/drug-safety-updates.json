@@ -38,6 +38,7 @@
     {
       "key": "first_published_at",
       "name": "Published",
+      "metadata_label": "Published",
       "type": "date",
       "preposition": "published",
       "metadata": true

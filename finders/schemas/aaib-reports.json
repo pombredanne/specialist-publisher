@@ -35,6 +35,7 @@
     {
       "key": "date_of_occurrence",
       "name": "Date of occurrence",
+      "metadata_label": "Occurred",
       "type": "date",
       "preposition": "occurred",
       "metadata": true
