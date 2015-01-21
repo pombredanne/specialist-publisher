@@ -7,6 +7,7 @@
       "name": "Therapeutic area",
       "type": "multi-select",
       "preposition": "about",
+      "metadata": true,
       "allowed_values": [
         {"label": "Anaesthesia and intensive care", "value": "anaesthesia-intensive-care"},
         {"label": "Cancer", "value": "cancer"},
@@ -38,7 +39,8 @@
       "key": "first_published_at",
       "name": "Published",
       "type": "date",
-      "preposition": "published"
+      "preposition": "published",
+      "metadata": true
     }
   ]
 }

@@ -7,6 +7,7 @@
         "name": "Case type",
         "type": "multi-select",
         "preposition": "of type",
+        "metadata": true,
         "allowed_values": [
           {"label": "CA98 and civil cartels", "value": "ca98-and-civil-cartels"},
           {"label": "Criminal cartels", "value": "criminal-cartels"},
@@ -23,6 +24,7 @@
       "name": "Case state",
       "type": "multi-select",
       "preposition": "which are",
+      "metadata": true,
       "allowed_values": [
         {"label": "Open", "value": "open"},
         {"label": "Closed", "value": "closed"}
@@ -34,6 +36,7 @@
       "name": "Market sector",
       "type": "multi-select",
       "preposition": "about",
+      "metadata": true,
       "allowed_values": [
         {"label": "Aerospace", "value": "aerospace"},
         {"label": "Agriculture, environment and natural resources", "value": "agriculture-environment-and-natural-resources"},
@@ -72,6 +75,7 @@
       "name": "Outcome",
       "type": "multi-select",
       "preposition": "with outcome",
+      "metadata": true,
       "allowed_values": [
         {"label": "CA98 - no grounds for action", "value": "ca98-no-grounds-for-action-non-infringement"},
         {"label": "CA98 - infringement Chapter I", "value": "ca98-infringement-chapter-i"},
@@ -103,7 +107,8 @@
       "key": "opened_date",
       "name": "Opened",
       "type": "date",
-      "preposition": "opened"
+      "preposition": "opened",
+      "metadata": true
     }
   ]
 }

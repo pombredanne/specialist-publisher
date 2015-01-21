@@ -7,6 +7,7 @@
       "name": "Funds",
       "type": "multi-select",
       "preposition": "which are",
+      "metadata": true,
       "allowed_values": [
         {"label": "Open", "value": "open"},
         {"label": "Closed", "value": "closed"}
@@ -17,6 +18,7 @@
       "name": "Countries",
       "type": "multi-select",
       "preposition": "for",
+      "metadata": true,
       "allowed_values": [
         {
           "label": "Afghanistan",

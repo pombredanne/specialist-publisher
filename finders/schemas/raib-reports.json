@@ -7,6 +7,7 @@
       "name": "Railway type",
       "type": "multi-select",
       "preposition": "of type",
+      "metadata": true,
       "allowed_values": [
         {"label": "Heavy rail", "value": "heavy-rail"},
         {"label": "Light rail", "value": "light-rail"},
@@ -19,6 +20,7 @@
       "name": "Report type",
       "type": "multi-select",
       "preposition": "of type",
+      "metadata": true,
       "allowed_values": [
         {"label": "Investigation report", "value": "investigation-report"},
         {"label": "Bulletin", "value": "bulletin"},
@@ -30,7 +32,8 @@
       "key": "date_of_occurrence",
       "name": "Date of occurrence",
       "type": "date",
-      "preposition": "occurred"
+      "preposition": "occurred",
+      "metadata": true
     }
   ]
 }
